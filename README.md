@@ -36,4 +36,4 @@ El proyecto incluye varios enfoques de ciencia de datos:
   
 ## Conjunto de Datos
 Conjunto de datos de ventas minoristas que contiene información sobre pedidos, productos, regiones, ventas y ganancias. 
-Soure: Kaggle
+Source: Kaggle
