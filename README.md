@@ -1,4 +1,5 @@
-Retail Sales Analysis, Profit Prediction and Product Segmentation
+Retail Sales Analysis, Profit Prediction and Customer Segmentation
+
 
 ## Resumen del Proyecto
 Este proyecto analiza datos de ventas minoristas para comprender el rendimiento comercial, los patrones de rentabilidad y los principales factores que impactan las ganancias. El análisis combina técnicas de Exploratory Data Analysis (EDA) y Machine Learning para generar insights útiles para la toma de decisiones empresariales.
