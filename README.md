@@ -1,39 +1,35 @@
 Retail Sales Analysis, Profit Prediction and Product Segmentation
 
 ## Resumen del Proyecto
-Este proyecto analiza un conjunto de datos de ventas minoristas para comprender el rendimiento de las ventas, los patrones de rentabilidad y los factores clave que influyen en los resultados del negocio. El análisis combina el análisis exploratorio de datos con técnicas de aprendizaje automático para generar información útil para la toma de decisiones.
+Este proyecto analiza datos de ventas minoristas para comprender el rendimiento comercial, los patrones de rentabilidad y los principales factores que impactan las ganancias. El análisis combina técnicas de Exploratory Data Analysis (EDA) y Machine Learning para generar insights útiles para la toma de decisiones empresariales.
 
 ## Objetivos
-* Analizar el rendimiento general de ventas y beneficios
-* Identificar patrones de ventas en diferentes regiones y categorías de productos
-* Detectar productos que generan pérdidas significativas
-* Explorar la relación entre las variables de ventas y la rentabilidad
-* Desarrollar modelos predictivos y analíticos para respaldar las decisiones empresariales
+- Analizar el rendimiento de ventas y ganancias.
+- Identificar tendencias por región y categoría.
+- Detectar productos con altas ventas pero baja rentabilidad.
+- Evaluar los factores que impactan el profit.
+- Construir modelos predictivos y de segmentación para apoyar decisiones de negocio.
 
 ## Metodología
+El proyecto incluye:
+- Análisis Exploratorio de Datos (EDA)
+- Predicción de ganancias con Random Forest Regressor
+- Clasificación de rentabilidad con Random Forest Classifier
+- Segmentación de clientes con K-Means Clustering
+- Análisis de importancia de variables (Feature Importance)
 
-El proyecto incluye varios enfoques de ciencia de datos:
-* Análisis exploratorio de datos (EDA) para comprender las tendencias de ventas y las relaciones entre variables
-* Predicción de ventas y beneficios mediante Random Forest
-* Clasificación de la rentabilidad mediante regresión logística
-* Segmentación de productos mediante K-Means
+## Principales Insights
+- La categoría Technology fue la más rentable.
+- La región West generó el mayor volumen de ventas.
+- Sales y Discount fueron las variables más influyentes sobre el Profit.
+- Algunos productos generaron altas ventas pero baja rentabilidad debido a descuentos agresivos.
+- La segmentación identificó clientes de alto valor y segmentos con mayor riesgo.
+- El modelo Random Forest Regressor alcanzó un R² de 0.77.
+- El modelo de clasificación logró una precisión del 95%.
 
-## Principales insights
+## Herramientas y Librerías
+Python | Pandas | NumPy | Scikit-learn | Matplotlib | Seaborn | Google Colab | Kaggle
 
-* La categoría de Tecnología y la región Oeste generan las mayores ventas.
-* Las ventas y los descuentos se encuentran entre las variables más influyentes en la predicción de beneficios.
-* La eliminación de valores atípicos mejoró ligeramente el rendimiento del modelo de Random Forest (R²=0,77).
-* El modelo de clasificación alcanzó un accuracy del 95 %.
-* La segmentación de productos reveló grupos con alta rentabilidad, baja rentabilidad y patrones atípicos.
-  
-## Herramientas Utilizadas
-
-* Python
-* Pandas
-* Matplotlib
-* Google Colab
-* Scikit-learn
-  
-## Conjunto de Datos
-Conjunto de datos de ventas minoristas que contiene información sobre pedidos, productos, regiones, ventas y ganancias. 
-Source: Kaggle
+## Dataset
+Conjunto de datos de ventas minoristas con información sobre pedidos, productos, regiones, descuentos, ventas y ganancias.
+Fuente: Kaggle
